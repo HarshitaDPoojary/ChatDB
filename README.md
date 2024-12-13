@@ -67,6 +67,10 @@ Executing the script will give the following options:
     `Enter the directory containing CSV files: `
     You can provide the path to the dataset. 
 
+    Example:
+    ![Reset and Upload CSV Files](images/S1_UploadDatabase.png)
+
+
 2. Generate Example Queries
     This will give some list of examples with `Description` and `Query`.
     Additionally after providing the queries, the gollowing options will be visible:
@@ -77,6 +81,10 @@ Executing the script will give the following options:
     ```
     a. Execute the query: You can execute one of the quries given in the examples
     b. view list of queries: You can see the list of queries again
+
+    Example:
+    ![Generate Example Queries](images/S2_GenerateSampleQueries.png)
+
 
 
 3. Generate Queries with Keyword
@@ -91,6 +99,10 @@ Executing the script will give the following options:
     a. Execute the query: You can execute one of the quries given in the examples
     b. view list of queries: You can see the list of queries again
 
+    Example:
+    ![Generate Queries with Keyword](images/S3_GenerateSamplewithKeywords.png)
+
+
 
 4. Enter a Natural Language Query
     Users can enter their query
@@ -98,16 +110,7 @@ Executing the script will give the following options:
     - Operators:
         `less than, at most, less than or equal, greater than, more than, at least, greater than or equal to, equal, equal to, is equal, is not equal to, not equal to`
     - Aggregators:
-        "total": "SUM",
-        "sum": "SUM",
-        "average": "AVG",
-        "mean": "AVG",
-        "maximum": "MAX",
-        "max": "MAX",
-        "minimum": "MIN",
-        "min": "MIN",
-        "count": "COUNT",
-        "number of": "COUNT"
+        `total/sum: SUM, average/mean: AVG, maximum/max: MAX, minimum/min: MIN, count/number of: COUNT`
     - Join Query: 
         `join, combine, merge , along with`
     - Group Query: 
@@ -116,4 +119,9 @@ Executing the script will give the following options:
         `top, first, last , skip , offset, after,`
     - sort:
         `order, ordered, sort, sorted, ascending, descending, asc, desc`
+    
+    Example:
+    ![Enter a Natural Language Query](images/S4_NaturalLaanguageQuery.png)
+
+
 
