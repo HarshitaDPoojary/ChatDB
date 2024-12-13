@@ -16,10 +16,10 @@ ChatDB is an interactive ChatGPT-like application designed to assist users in le
 
 The application supports the following datasets:
 
-1. [Coffee Shop Sales Dataset](https://www.kaggle.com/datasets/ahmedabbas757/coffee-sales?resource=download)
-2. [Harry Potter Movies Dataset](https://www.kaggle.com/datasets/maricinnamon/harry-potter-movies-dataset)
-3. [Target Dataset](https://www.kaggle.com/datasets/devarajv88/target-dataset?select=orders.csv)
-4. [Formula 1 Status Dataset](https://www.kaggle.com/datasets/cbhavik/formula-1-ml-classifier?select=status.csv)
+
+1. [Harry Potter Movies Dataset as (db1)](https://www.kaggle.com/datasets/maricinnamon/harry-potter-movies-dataset)
+2. [Target Dataset as (db2)](https://www.kaggle.com/datasets/devarajv88/target-dataset)
+3. [Formula 1 Status Dataset as (db3)](https://www.kaggle.com/datasets/cbhavik/formula-1-ml-classifier?select=status.csv)
 
 These datasets are stored in the database system as tables (e.g., in MySQL) or collections (e.g., in MongoDB).
 
@@ -52,3 +52,68 @@ To run ChatDB, execute the following command:
 ```
 python chatdb.py
 ```
+
+Executing the script will give the following options:
+```
+1. Reset and Upload CSV Files
+2. Generate Example Queries
+3. Generate Queries with Keyword
+4. Enter a Natural Language Query
+5. Exit
+```
+
+1. Reset and Upload CSV Files
+    It will prompt you to enter the path with 
+    `Enter the directory containing CSV files: `
+    You can provide the path to the dataset. 
+
+2. Generate Example Queries
+    This will give some list of examples with `Description` and `Query`.
+    Additionally after providing the queries, the gollowing options will be visible:
+    ```
+    1. Execute a query
+    2. View list of queries
+    3. Back to main menu
+    ```
+    a. Execute the query: You can execute one of the quries given in the examples
+    b. view list of queries: You can see the list of queries again
+
+
+3. Generate Queries with Keyword
+    The allowed keywords are: group by, where, order by, join
+    This will give some list of examples with `Description` and `Query` having the keyword.
+    Additionally after providing the queries, the gollowing options will be visible:
+    ```
+    1. Execute a query
+    2. View list of queries
+    3. Back to main menu
+    ```
+    a. Execute the query: You can execute one of the quries given in the examples
+    b. view list of queries: You can see the list of queries again
+
+
+4. Enter a Natural Language Query
+    Users can enter their query
+    Sample keywrods for the users
+    - Operators:
+        `less than, at most, less than or equal, greater than, more than, at least, greater than or equal to, equal, equal to, is equal, is not equal to, not equal to`
+    - Aggregators:
+        "total": "SUM",
+        "sum": "SUM",
+        "average": "AVG",
+        "mean": "AVG",
+        "maximum": "MAX",
+        "max": "MAX",
+        "minimum": "MIN",
+        "min": "MIN",
+        "count": "COUNT",
+        "number of": "COUNT"
+    - Join Query: 
+        `join, combine, merge , along with`
+    - Group Query: 
+        `grouped, group`
+    - limit/offset:
+        `top, first, last , skip , offset, after,`
+    - sort:
+        `order, ordered, sort, sorted, ascending, descending, asc, desc`
+
