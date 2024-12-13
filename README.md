@@ -33,14 +33,14 @@ These datasets are stored in the database system as tables (e.g., in MySQL) or c
 
 ### Installation
 
-1. Clone the repository:
+1. **Clone the repository**:
    ```
    git clone https://github.com/HarshitaDPoojary/ChatDB.git
    cd ChatDB
    ```
 
 
-2. Install dependencies
+2. **Install dependencies**:
    ```
    pip install -r requirements.txt
    ```
