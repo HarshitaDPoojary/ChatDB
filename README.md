@@ -2,7 +2,7 @@
 
 ## Overview
 
-ChatDB is an interactive ChatGPT-like application designed to assist users in learning how to query data in database systems, including SQL and NoSQL databases. ChatDB not only suggests sample queries and interprets natural language queries but also executes these queries on database systems and displays the results. This unique functionality sets ChatDB apart, making it an invaluable tool for learning and practicing database query techniques.
+ChatDB is designed to assist users in learning how to query data in database systems, for MySQL. ChatDB not only suggests sample queries and interprets natural language queries but also executes these queries on database systems and displays the results.
 
 ## Key Features
 
@@ -79,8 +79,8 @@ Executing the script will give the following options:
     2. View list of queries
     3. Back to main menu
     ```
-    a. Execute the query: You can execute one of the quries given in the examples
-    b. view list of queries: You can see the list of queries again
+    - Execute the query: You can execute one of the quries given in the examples
+    - View list of queries: You can see the list of queries again
 
     Example:
     ![Generate Example Queries](images/S2_GenerateSampleQueries.png)
