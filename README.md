@@ -62,7 +62,7 @@ Executing the script will give the following options:
 5. Exit
 ```
 
-1. Reset and Upload CSV Files
+1. **Reset and Upload CSV Files**
     It will prompt you to enter the path with 
     `Enter the directory containing CSV files: `
     You can provide the path to the dataset. 
@@ -71,7 +71,7 @@ Executing the script will give the following options:
     ![Reset and Upload CSV Files](images/S1_UploadDatabase.png)
 
 
-2. Generate Example Queries
+2. **Generate Example Queries**
     This will give some list of examples with `Description` and `Query`.
     Additionally after providing the queries, the gollowing options will be visible:
     ```
@@ -87,7 +87,7 @@ Executing the script will give the following options:
 
 
 
-3. Generate Queries with Keyword
+3. **Generate Queries with Keyword**
     The allowed keywords are: group by, where, order by, join
     This will give some list of examples with `Description` and `Query` having the keyword.
     Additionally after providing the queries, the gollowing options will be visible:
@@ -104,20 +104,20 @@ Executing the script will give the following options:
 
 
 
-4. Enter a Natural Language Query
+4. **Enter a Natural Language Query**
     Users can enter their query
     Sample keywrods for the users
-    - Operators:
+    - ***Operators***:
         `less than, at most, less than or equal, greater than, more than, at least, greater than or equal to, equal, equal to, is equal, is not equal to, not equal to`
-    - Aggregators:
+    - ***Aggregators**:
         `total/sum: SUM, average/mean: AVG, maximum/max: MAX, minimum/min: MIN, count/number of: COUNT`
-    - Join Query: 
+    - ***Join Query***: 
         `join, combine, merge , along with`
-    - Group Query: 
+    - ***Group Query***: 
         `grouped, group`
-    - limit/offset:
+    - ***limit/offset***:
         `top, first, last , skip , offset, after,`
-    - sort:
+    - ***sort***:
         `order, ordered, sort, sorted, ascending, descending, asc, desc`
     
     Example:
