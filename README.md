@@ -106,7 +106,7 @@ Executing the script will give the following options:
 
 4. **Enter a Natural Language Query**
     Users can enter their query
-    Sample keywrods for the users
+    Sample keywords for the users
     - ***Operators***:
         `less than, at most, less than or equal, greater than, more than, at least, greater than or equal to, equal, equal to, is equal, is not equal to, not equal to`
     - ***Aggregators**:
